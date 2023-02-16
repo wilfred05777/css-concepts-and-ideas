@@ -5,7 +5,7 @@
   },
   "scripts": {
     "start": "nodemon npx node-sass scss/styles.scss css/styles.css",
-    "dev": "nodemon -w ./sass -x \"node-sass ./sass -o ./css --output-style compressed\" ",
+    "dev": "nodemon -watch --update ./sass -x \"node-sass ./sass -o ./css --output-style\" ",
     "dev2": "nodemon -w src/sass -x \"node-sass src/sass -o public/css --output-style compressed\""
   }
 }

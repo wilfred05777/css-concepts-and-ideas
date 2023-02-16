@@ -1,1 +1,34 @@
-.container{background-color:#eee;width:1000px;margin:30px auto;display:grid;grid-template-rows:150px 150px;grid-template-columns:150px 150px 150px}.container .item{padding:20px;font-size:20px;font-family:sans-serif;color:#fff}.container .item--1{background-color:orangered}.container .item--2{background-color:yellowgreen}.container .item--3{background-color:blueviolet}.container .item--4{background-color:palevioletred}.container .item--5{background-color:royalblue}.container .item--6{background-color:goldenrod}
+/* line 6, sass/styles.scss */
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+  grid-row-gap: 30px;
+  grid-column-gap: 10px; }
+  /* line 17, sass/styles.scss */
+  .container .item {
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff; }
+    /* line 23, sass/styles.scss */
+    .container .item--1 {
+      background-color: orangered; }
+    /* line 24, sass/styles.scss */
+    .container .item--2 {
+      background-color: yellowgreen; }
+    /* line 25, sass/styles.scss */
+    .container .item--3 {
+      background-color: blueviolet; }
+    /* line 26, sass/styles.scss */
+    .container .item--4 {
+      background-color: palevioletred; }
+    /* line 27, sass/styles.scss */
+    .container .item--5 {
+      background-color: royalblue; }
+    /* line 28, sass/styles.scss */
+    .container .item--6 {
+      background-color: goldenrod; }
