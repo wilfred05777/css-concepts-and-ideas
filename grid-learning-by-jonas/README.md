@@ -1,3 +1,5 @@
+#### 92. Creating Our First Grid
+
 ```html
 <div class="container">
   <!-- .container>.item.item--$*6 -->
@@ -58,4 +60,37 @@ scripts": {
     "dev": "nodemon -watch --update ./sass -x \"node-sass ./sass -o ./css --output-style compressed\" ",
     "dev2": "nodemon -w src/sass -x \"node-sass src/sass -o public/css --output-style compressed\""
   }
+```
+
+#### 93. Getting Familiar with the fr Unit
+
+```html
+
+```
+
+```css
+/* style.css */
+/* refactor */
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 30px auto;
+
+  height: 1000px;
+  display: grid;
+  // grid-template-rows: 150px 150px;
+  // grid-template-columns: 150px 150px 150px;
+
+  grid-template-rows: repeat(2, 150px);
+  // grid-template-rows: repeat(2,  1fr);
+
+  grid-template-columns: repeat(3, 1fr);
+  // grid-template-columns:  repeat(2, 150px) 1fr;
+  // grid-template-columns: 1fr 2fr 1fr;
+  // grid-template-columns: 50% 2fr 1fr;
+
+  // grid-row-gap: 30px;
+  // grid-column-gap: 30px;
+  grid-gap: 30px;
+}
 ```
